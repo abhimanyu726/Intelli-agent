@@ -194,34 +194,6 @@ OPENAI_API_KEY=your_key
 MODEL_NAME=gpt-4o-mini
 ```
 
-## Debugging
-
-### Memory Debugging
-
-Add inside `memory_node.py`
-
-```python
-print(state["query"])
-print(rewritten_query)
-```
-
-### Retrieval Debugging
-
-Add inside `retrieval_node.py`
-
-```python
-print(doc.page_content[:500])
-```
-
-### VectorStore Debugging
-
-Add inside `vectorstore_service.py`
-
-```python
-print("CREATING NEW VECTORSTORE")
-print("LOADING EXISTING VECTORSTORE")
-```
-
 ## Future Improvements
 
 * Hybrid Search
