@@ -1,0 +1,13 @@
+langchain
+langgraph
+langchain-openai
+langchain-community
+langchain-core
+streamlit
+faiss-cpu
+python-dotenv
+pydantic
+pymupdf
+rank-bm25
+tiktoken
+openai
