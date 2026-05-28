@@ -19,6 +19,7 @@ uploaded_files = st.sidebar.file_uploader(
 query = st.chat_input(
     "Ask your question"
 )
+print(st.session_state)
 
 if "graph" not in st.session_state:
 
